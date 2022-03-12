@@ -5,7 +5,7 @@ document.write("Hello, World!<br>"); // This creates text in the document itself
 // document - object, write - method, () - holds data, "Hello, World!" - string, ; - ends statement
 
 var A = " This is a string."; // This creates a named value that holds any type of needed data. Can be numeric, alpha or a combination of both.
-document.write(A + "<br>");
+document.write(A + "<br>"); // for br to work here, there are no "" so add a + and then br in "" before the closing ()
 // var - keyword, A - variable name, = - operator assigning value to the variable, "This is a string" - value of the variable, in this case, a string, ; - ends statement
 
 document.write(" Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br>\"Eat my shorts!\" Bart responded. <br>"); // Using " and ' without affecting the string by "escaping" with a \. This symbol comes before the problem character.
