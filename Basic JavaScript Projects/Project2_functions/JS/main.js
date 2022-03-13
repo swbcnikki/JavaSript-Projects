@@ -9,7 +9,7 @@ function toastParty() { // function that will be invoked - in index.html it is s
 }
 
 function theySay() { // function that will be invoked
-    var sentence = "Math is the purest science"; //
+    var sentence = "Math is the purest science"; // var is a sentence
     sentence += " followed by physics, then chemistry then biology"; // 2nd part of the sentence that will be concatenated
     document.getElementById("Concatenate").innerHTML = sentence; //innerHTML has been set as the sentence, from the id Concatenate defined in the index.html
 }
