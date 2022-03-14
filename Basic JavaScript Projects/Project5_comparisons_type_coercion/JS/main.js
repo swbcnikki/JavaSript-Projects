@@ -20,41 +20,41 @@ document.write(5E350 + "<br>"); // positive infinity
 
 document.write(-5E350 + "<br>"); // negative infinity
 
-document.write(0.1 > -1); //operator greaterthan
+document.write(0.1 > -1, "<br>"); //operator greaterthan
 
-document.write(0.1 < -1); // operator lessthan
+document.write(0.1 < -1, "<br>"); // operator lessthan
 
 console.log(50 + 50); //F12 in html screen, click console
 
 console.log(isNaN("NestInNest")); // same as above, can be used for testing and also to track hidden errors
 
-document.write(12 == 12); // operator is equal to, produces t or f answer
+document.write(12 == 12, "<br>"); // operator is equal to, produces t or f answer
 
-document.write(80 == 08); // same as above
+document.write(80 == 08, "<br>"); // same as above
 
 L = 13;
 M = 13;
-document.write(L === M); // operator comparison, produces t or f answer - here same data str and values
+document.write(L === M, "<br>"); // operator comparison, produces t or f answer - here same data str and values
 
 N = "13";
 O = 13;
-document.write(N === O); // same as above - here different data str same values
+document.write(N === O, "<br>"); // same as above - here different data str same values
 
 P = 31;
 Q = 13;
-document.write(P === Q); // same as above - here same data str different values
+document.write(P === Q, "<br>"); // same as above - here same data str different values
 
 R = 31;
 S = "thirteen";
-document.write(R === S) // same as above - here diff data str and values
+document.write(R === S, "<br>") // same as above - here diff data str and values
 
-document.write(2 > 1 && 5 < 6); // operator AND produces a t or f answer
+document.write(2 > 1 && 5 < 6, "<br>"); // operator AND produces a t or f answer
 
-document.write(4 > 2 && 10 < 3); // same as above
+document.write(4 > 2 && 10 < 3, "<br>"); // same as above
 
-document.write(2 > 1 || 5 < 6); // operator OR produces a t or f answer
+document.write(2 > 1 || 5 < 6, "<br>"); // operator OR produces a t or f answer
 
-document.write(4 < 2 || 10 < 3); // same as above
+document.write(4 < 2 || 10 < 3, "<br>"); // same as above
 
 function d_Function() {
     document.getElementById("not_Demo").innerHTML = !(12 > 21); // operator NOT produces a t or f answer
