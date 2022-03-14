@@ -31,3 +31,16 @@ function z_Function() {
     document.getElementById("New_and_This").innerHTML =
         "The " + Emily.Vehicle_Year + Emily.Vehicle_Color + "-colored " + Emily.Vehicle_Make + Emily.Vehicle_Model + " belongs to Emily"
 }
+
+function Adoptable_kitten(age, gender, size, breed) {
+    this.Adoptable_kitten_age = age;
+    this.Adoptable_kitten_gender = gender;
+    this.Adoptable_kitten_size = size;
+    this.Adoptable_kitten_breed = breed;
+}
+const Penny = new Adoptable_kitten("Young", "Female", "Medium", "Domestic Short Hair");
+
+function y_Function() {
+    document.getElementById("ObjConstr_Demo").innerHTML =
+        "Penny is a " + Penny.Adoptable_kitten_age + " playful " + Penny.Adoptable_kitten_breed + " ready to be adopted today!";
+}
