@@ -25,7 +25,7 @@ Add_numbers_2();
 
 function Divide_numbers() {
     var H = 144
-    document.write(H / 12)
+    console.log(h / 12)
 }
 Divide_numbers();
 
