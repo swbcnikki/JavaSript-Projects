@@ -23,7 +23,7 @@ function Add_numbers_2() { // local variable example
 Multiply_numbers();
 Add_numbers_2();
 
-function Divide_numbers() {
+function Divide_numbers() { //Intentionally creating a function with an error to use console.log() method
     var H = 144
     console.log(h / 12)
 }
