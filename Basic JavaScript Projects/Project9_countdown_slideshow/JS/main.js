@@ -13,3 +13,11 @@ function countdown() {
     }
     tick();
 }
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+//Next/back controls
+function plusSlides(n) {
+
+}
