@@ -17,7 +17,7 @@ function countdown() { //
 var slideIndex = 1;
 showSlides(slideIndex);
 
-//Next/back controls
+//Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
