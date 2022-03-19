@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>arrow function</title>
+</head>
+
+<body>
+    <!-- These should come out the same.-->
+
+    <p id="beforearrow_Demo"></p>
+    <script>
+        var hello;
+
+        hello1 = function() {
+            return "Hello World! I am written with my JS function.";
+        }
+        document.getElementById("beforearrow_Demo").innerHTML = hello1();
+    </script>
+
+    <p id="arrow_Demo"></p>
+
+    <script>
+        var hello;
+
+        hello2 = () => {
+            return "Hello World! I am without my JS function. Instead, I have an arrow."
+        }
+        document.getElementById("arrow_Demo").innerHTML = hello2();
+    </script>
+</body>
+
+
+</html>
