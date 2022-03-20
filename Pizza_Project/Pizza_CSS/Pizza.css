@@ -18,13 +18,19 @@
 
 .left {
     width: 200px;
-    height: 200px;
+    height: 210px;
     float: left;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: none;
 }
 
 .right {
     width: 200px;
-    height: 200px;
+    height: 210px;
     float: right;
 }
 
