@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Event basics</title>
+
+</head>
+
+<script>
+    // Event setup using a convenience method 
+    $(document).ready(function() {
+        $("p").click(function() {
+            console.log("You clicked a paragraph!");
+        });
+    });
+</script>
+
+<body>
+    <p>This is sooooo frustrating!!!</p>
+    <p>Yah! Whose bright idea was it to dive in?</p>
+    <P>Moving on!</P>
+</body>
+
+</html>
