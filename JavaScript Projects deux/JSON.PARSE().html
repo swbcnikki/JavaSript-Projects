@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <p id="myCat"></p>
+    <script>
+        /* This is a JSON string variable */
+        var cat = '{"name": "Titu", "breed": "Persian", "color": "silver"}';
+        /* convert JSONstring to JavaScript Objects format*/
+        var JSONstring = JSON.parse(cat);
+        document.getElementById("myCat").innerHTML = JSONstring.name + " the " + JSONstring.color + " " + JSONstring.breed;
+    </script>
+</body>
+
+</html>
