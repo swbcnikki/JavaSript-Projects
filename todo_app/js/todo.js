@@ -21,7 +21,7 @@ function add() {
     /* this converts the task input to a JSON string*/
     localStorage.setItem('todo', JSON.stringify(todos));
     document.getElementById("task").value = "";
-    SharedWorker();
+    show();
 
     return false;
 }
@@ -44,3 +44,21 @@ function show() {
 document.getElementById('add').addEventListener('click', add);
 /* this will keep the inputs displayed permanently on the screen */
 show();
+/*This tells the browser how to display the todo array after an item has been removed*/
+var buttons = document.getElementsByClassName('remove');
+for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', remove);
+};
+
+/* this creates the functionality of removeing a todo item from the array */
+function remove() {
+    var id = this.getAttribute('id');
+    var todos = get_todos();
+    todos.splice(id, 1);
+    localStorage.setItem('todo', JSON.stringify(todos));
+    /* this looks in the show() how to display a removed item on the screen */
+    show();
+
+    return false
+}
+/* when the x button is clicked, it will remove the item next to it but, if you click another x it does not do anything unless you refresh the page, which then the same proc is followed. */

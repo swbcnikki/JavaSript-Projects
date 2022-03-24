@@ -9,18 +9,15 @@ body {
 }
 
 input {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 500px;
-    height: 60px;
+    height: 30px;
     font-size: 30px;
-    border: 0;
+    border-color: black;
 }
 
 input:focus {
     outline: none;
-    border: 0px solid;
-    height: 20px;
-    width: 50%;
 }
 
 li {
@@ -32,4 +29,8 @@ li {
 
 button {
     align-items: right;
+}
+
+.remove {
+    padding-bottom: 2px;
 }
